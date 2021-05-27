@@ -1,0 +1,89 @@
+.outer_box{
+   width: 500px;
+   margin: 2% auto;
+   /* display: flex;  */
+}
+.box{
+    background-color: #33bed6;
+    color:white;
+    width:500px;
+    height: 190px;
+}
+.text_end{
+    text-align: end;
+
+}
+h2,h4{
+    margin:0;
+    padding: 10px 10px 10px 0;
+
+}
+.text_addtodo{
+    text-align: center;
+    margin-top :30px;
+}
+input[type=Text]{
+    padding: 7px;
+    width: 250px;
+    border-radius:5px ;
+    border: 0px;
+    margin-left:10px ;
+}
+button{
+    color: white;
+    background-color: #4deb75;
+    font-size: 14px;
+    padding: 7px;
+    font-weight:600 ;
+    border: 5px;
+    border-radius:6px ;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+input[type=text]:focus{
+    outline: none;
+}
+button:focus{
+outline: none;
+}
+.todo_list{
+    max-height:210px; 
+    overflow: auto ;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+li{
+    display: flex;
+    background: lightgray;
+    font-size: 10px;
+    font-weight: 600;
+    color: black;
+    padding: 15px 15px 15px 10px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+.pointer{
+    cursor: pointer;
+
+}
+.line-throug{
+    text-decoration:  line-through;
+    color: gree;
+
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
